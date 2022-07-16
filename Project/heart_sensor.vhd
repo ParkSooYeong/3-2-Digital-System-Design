@@ -22,7 +22,7 @@ ARCHITECTURE sample of heart_sensor IS
 	SIGNAL	msg : lcd_disp := ((	X"42", X"50", X"4D", X"20", X"20", X"20", X"20", X"43",		--
 											X"4E", X"54", X"20", X"20", X"20", X"54", X"49", X"4D"),		--   BPM CNT TIM
 										(	X"20", X"20", X"20", X"20", X"20", X"20", X"20", X"20", 		--   xxx yyy zzz   
-											X"20", X"20", X"20",X"20",X"20", X"20", X"20", X"20") ); 	--
+											X"20", X"20", X"20",X"20",X"20", X"20", X"20", X"20") ); 		--
 	
 BEGIN
 	P_SW_STSTP : PROCESS(sw_reset, sw_ststp)
